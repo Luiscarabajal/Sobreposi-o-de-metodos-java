@@ -12,7 +12,7 @@ package entities;
 public class SavingsAccount extends Account {
     
     
-    private Double interRate;
+    
     
     public SavingsAccount(){
         super();
@@ -22,6 +22,9 @@ public class SavingsAccount extends Account {
         super(number, holder, balance);
         this.interRate = interRate;
     }
+    
+private Double interRate;
+ 
     
    public void updateBalance(){
        balance += balance;
